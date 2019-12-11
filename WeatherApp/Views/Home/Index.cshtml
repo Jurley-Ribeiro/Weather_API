@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+@model OpenWeatherAPI.Query
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+
+        @using (Html.BeginForm(FormMethod.Post))
+        {
+            @Html.TextBox("city", Model.Name)
+            <input type="submit" value="Check the weather!">
+        }
+        <label>Latitude:</label> <label>@Model.Coord.Latitude</label>
+        <label>Longitude:</label> <label>@Model.Coord.Longitude</label>
+        <label>Cidade:</label> <label>@Model.Name</label>
+
+
+
+    </div>
