@@ -26,24 +26,6 @@ Clonar o diretório git do projeto. Pode ser usada tanto via linha de comando qu
 
 ## Add NugetPackage
 
-- Botão direito sobre a solution > 
-Para inicar o servidor:
-
-
-### Regras para Commit, Branch e Pull Request
-
-O padrão de commit consiste no número da história no github e quem desenvolveu:
-
-```sh
-03/@fulana,@ciclana: Adiciona header
-```
-
-A nomenclatura segue um padrão similar, com o número da história e uma breve descrição:
-
-```sh
-03/configura-layout
-```
-
-O repositório não permite fazer push direto para a `master`. Todas mudanças devem ser feitas através de Pull Requests, passando por uma revisão de código por parte do time. Sugerimos adicionar uma descrição ao pull request, descrevendo quais mudanças foram feitas.
+- Botão direito sobre a solution > procurar por "entity framework" > adicionar versão 6.2.0 > marcar o checkbox da solução ( marcara todas as check-boxs)
 
 ### Fique a vontade para contribuir e agregar conhecimento. 
