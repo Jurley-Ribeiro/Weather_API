@@ -30,7 +30,7 @@ Clonar o diretório git do projeto. Pode ser usada tanto via linha de comando qu
 Para inicar o servidor:
 
 
-###Regras para Commit, Branch e Pull Request
+### Regras para Commit, Branch e Pull Request
 
 O padrão de commit consiste no número da história no github e quem desenvolveu:
 
